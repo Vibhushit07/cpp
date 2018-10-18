@@ -6,7 +6,7 @@ void getfromfile()
 
 	string name;
 	cout << "Please enter a file name: ";
-	getline(cin, name);
+	getline(cin, name); // takes the input of name of file
 	myfile.open(name.c_str()); // open the file with that given name
 	for ( unsigned i = 0; i < 30; i++ ) // loop through the 1st dimension of the array
 	    for ( unsigned j = 0; j < 30; j++ ) // loop through the 2nd dimension of the array
